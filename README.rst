@@ -404,7 +404,8 @@ Testing
 The tests are pretty simple and don't rely on any external services. You
 shouldn't have any issues firing off the tests with this commandline.
 
-.. sourcecode:
+.. sourcecode::
+
     python setup.py develop
     python -m unittest discover
 
