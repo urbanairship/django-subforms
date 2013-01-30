@@ -396,3 +396,16 @@ By default, the HierarchicalFormBase (which your parent form inherits from) will
 the ``is_valid()`` function on each of the subforms that have been toggled as _modified_
 on the parent form. You can then call out to things like a custom cross-form checker
 (like we do in the example above) to double check that there aren't conflicts.
+
+
+Testing
+=======
+
+The tests are pretty simple and don't rely on any external services. You
+shouldn't have any issues firing off the tests with this commandline.
+
+.. sourcecode:
+    python setup.py develop
+    python -m unittest discover
+
+

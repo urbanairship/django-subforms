@@ -299,3 +299,6 @@ class TestFormMapper(unittest.TestCase):
         # instances and leave implementation to the caller.
         self.assertEqual(fake_sub1.fake_field, fake_field)
         self.assertEqual(fake_sub2.fake_title, fake_title)
+
+if __name__ == '__main__':
+    unittest.main()
