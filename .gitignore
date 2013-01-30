@@ -1,0 +1,10 @@
+*.pyc
+*.swp
+dist
+*.egg-info
+bin/
+include/
+lib/
+local/
+man/
+share/
