@@ -346,8 +346,6 @@ equally well.
                 ]
             ]
             if len(set([data[1] for data in blog_data])) > 1:
-                # If we have more than one value for android packages,
-                # then we have a problem.
                 for form_name, attr_value in blog_data:
                     self._create_or_append(
                         forms, form_name, 'title', error_msg

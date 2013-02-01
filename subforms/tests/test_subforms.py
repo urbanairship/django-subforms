@@ -1,6 +1,8 @@
-from django import forms
+# (c) 2013 Urban Airship and Contributors
 
 import unittest
+
+from django import forms
 
 from subforms.decorators import ClassProperty
 from subforms.mapper import Mapper

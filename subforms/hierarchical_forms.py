@@ -1,3 +1,5 @@
+# (c) 2013 Urban Airship and Contributors
+
 from django import forms
 
 from subforms.decorators import ClassProperty

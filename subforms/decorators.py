@@ -1,3 +1,5 @@
+# (c) 2013 Urban Airship and Contributors
+
 class ClassProperty(object):
     """Use this as a decorator like @property, but for classes.
 

@@ -1,3 +1,5 @@
+# (c) 2013 Urban Airship and Contributors
+
 class Mapper(object):
     """Creates a bidirectional mapper between model instances and form data.
 
